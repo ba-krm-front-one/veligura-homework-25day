@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    max-width: 1600px;
+    max-height: 1200px;
+}
+.block {
+    max-width: 1400px;
+    max-height: 940px;
+    background: white;
+    margin: 130px 100px;
+    padding-top: 140px;
+    padding-left: 121px;
+    padding-right: 138px;
+    padding-bottom: 227px;
+    box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+    color: rgba(23,23,23, 0.7);
+}
+.first:first-letter{
+    float: left;
+    font-size: 110px;
+    color: black;
+    margin-right: 20px;
+    display: block;
+    width: 69px;
+    height: 79px;
+    text-transform: uppercase;
+    line-height: 89px;
+}
+p{
+    line-height: 2em;
+    color: rgba(23,23,23, 0.7);
+    margin-top: 0;
+    font-family: "Lato";
+}
+p:nth-child(3){
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.h2-title{
+    font-size: 42px;
+    padding-left: 2px;
+    color: #171717;
+    font-family: "Playfair Display";
+}
+.quote{
+    margin: 0;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    color: #171717;
+    opacity: 0.7;
+    line-height: 34px;
+    font-style: italic;
+}
+.quote:before{
+    content: open-quote;
+    font-size: 42px;
+    padding-right: 20px;
+}
+.btn-discover{
+    width: 265px;
+    height: 68px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 2px solid #eaa258;
+    border-top: 2px solid ;
+    font-family: "Lato", sans-serif;
+    color: #eaa258;
+    font-weight: bold;
+}
+.btn-discover:hover{
+    opacity: 0.7;
+}
